@@ -2,21 +2,23 @@
 body {
   margin: 0 auto;
   font-family: arial;
+  
 }
 
 
 .header {
   color: #fff;
-  background-color: rgb(91, 233, 91);
+  background-color:  #4ae3ee;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,39,121,0.4155844155844156) 35%, rgba(0,212,255,1) 100%);
   border-bottom: 1px solid black;  
   padding: 10px 20px 30px;
   font-size: 20px;
-  font-weight: 700px;
   display: flex;
   justify-content: space-between;
 }
 
 .add-button {
+  color: #fff;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 10px;
@@ -25,6 +27,7 @@ body {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 9px;
   cursor: pointer;
+  text-decoration: none;
   
 }
 .contactDiv{
@@ -38,7 +41,7 @@ body {
   width:35%;
   font-size: 20px;
   margin:2rem 0;
-  border: 0.5px solid grey;
+  border: 1.5px solid #00ff80;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -68,22 +71,35 @@ img {
 
 
 
-button {
-  font-weight: 700;
+.edit-button {
+  font-weight: 500;
   color: #fff;
   font-size:1.6rem;
   background-color: #5afc03;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   margin:0.5rem 0.5rem; 
-  padding: 8px 10px;
+  padding: 5px;
   display: block;
   cursor: pointer;
-  
+  text-decoration: none;
+  text-align: center;
 
 }
 
-button:nth-child(2) {
-  background-color: #050505;
+.delete-button {
+  font-weight: 500px;
+  color: #fff;
+  font-size: 1.6rem;
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+  margin: -0.5rem 0.5rem; 
+  padding: 5px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
+
 
